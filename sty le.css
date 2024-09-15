@@ -1,14 +1,20 @@
 :root {
 --main-color: #1064E9;
---m-color: #024940;
---c-color: #536872;
+--m-color: #86A3B1;
+--c-color: #F4F4F4;
 --n-color: #027870;
-
+--t-color: #86A3B1;
 }
 
 body {
+  /*max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;*/
+
+
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
   margin: auto;
   min-height: 100vh;
   min-width: 100%;
@@ -25,26 +31,26 @@ main {
   min-height: 100%;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  gap: 30px;
+  gap: 15px;
   
 }
 img {
-  border-radius: 15px;
-  width: 282px;
-  height: 449px;
+  border-radius: 8px;
+ /* width: 282px;
+  height: 449px;*/
+  width: 100px;
+  height: 155px;
+  border: 2px solid #F4F4F4;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
 }
-/*.card-back {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  transform-style: preserve-3d;
-  transition: transform 0.6s;
-}*/
+
 
 .container {
-  width: 300px;
-  height: 450px;
-  perspective: 1000px;
+  width: 100px;
+  height: 155px;
+  /*width: 300px;
+  height: 450px;*/
+  perspective: 500px;
   cursor: pointer;
 }
  .card {
