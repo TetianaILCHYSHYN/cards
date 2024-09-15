@@ -1,0 +1,35 @@
+:root {
+--main-color: #1064E9;
+--m-color: #024940;
+--c-color: #536872;
+--n-color: #027870;
+
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  min-height: 100vh;
+  min-width: 100%;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--n-color);
+}
+
+main {
+  display: grid;
+  
+  max-width: 100%;
+  min-height: 100%;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 30px;
+  
+}
+img {
+  border-radius: 20px;
+  width: 282px;
+  height: 449px;
+}
