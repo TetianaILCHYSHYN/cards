@@ -83,3 +83,18 @@ img {
   width: 100%;
   height: 100%;
 }
+
+
+@media screen and (max-width: 500px) {
+
+  img , .container{
+    width: 65px;
+    height: 100px;
+  }
+
+  main {
+    
+    gap: 8px;
+    
+  }
+}
