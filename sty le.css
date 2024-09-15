@@ -15,7 +15,7 @@ body {
   max-width: 100%;
   align-items: center;
   justify-content: center;
-  background-color: var(--n-color);
+  background-color: var(--m-color);
 }
 
 main {
@@ -45,6 +45,7 @@ img {
   width: 300px;
   height: 450px;
   perspective: 1000px;
+  cursor: pointer;
 }
  .card {
   width: 100%;
@@ -52,7 +53,8 @@ img {
   position: relative;
   transform-style: preserve-3d;
   transition: 0.6s;
-
+  transition-delay: 0.1s;
+  transition-duration: 1s;
  }
 
 .container:hover .card {
